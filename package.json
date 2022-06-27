@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "three": "^0.141.0"
+  },
+  "name": "reality-designers",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raymondspartz/Reality-Designers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raymondspartz/Reality-Designers/issues"
+  },
+  "homepage": "https://github.com/raymondspartz/Reality-Designers#readme"
+}
