@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import SplineLoader from '@splinetool/loader';
+import { DirectionalLight } from 'three';
 
 // camera
 const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 5, 100000);
@@ -19,11 +20,16 @@ loader.load(
   }
 );
 
+const SplineLoader = loader.load
+const lighting = DirectionalLight
+
+
 // renderer
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setAnimationLoop(animate);
 document.body.appendChild(renderer.domElement);
+
 
 // scene settings
 renderer.shadowMap.enabled = true;
