@@ -20,9 +20,6 @@ loader.load(
   }
 );
 
-const SplineLoader = loader.load
-const lighting = DirectionalLight
-
 
 // renderer
 const renderer = new THREE.WebGLRenderer({ antialias: true });
