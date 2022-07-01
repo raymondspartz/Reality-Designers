@@ -8,12 +8,25 @@ html,
 body
 {
     overflow: hidden;
+    background-color: transparent;
 }
 
 .webgl
 {
-    position: fixed;
-    top: 0;
     left: 0;
     outline: none;
+}
+
+.info {
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.container {
+
+    width: 100%;
+    height: 100vh;
+
 }
